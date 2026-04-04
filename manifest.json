@@ -1,15 +1,15 @@
 {
     "manifest_version": 3,
-    "name": "Blogger Post Editor",
+    "name": "Blogger Editor Opener",
     "version": "1.3",
-    "description": "Open the Blogger post editor for the current post, even on custom domains.",
+    "description": "Open Blogger posts and pages directly in the Blogger Console editor from any live site.",
     "permissions": ["activeTab", "scripting", "notifications"],
     "host_permissions": ["<all_urls>"], 
     "background": {
       "service_worker": "background.js"
     },
-    "action": {
-      "default_title": "Blogger Post Editor",
+"action": {
+      "default_title": "Blogger Editor Opener",
       "default_icon": {
         "16": "icon-16.png",
         "48": "icon-48.png",
